@@ -1,0 +1,3580 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "49219d08-e872-4971-9be4-9bb8381445ee")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:microbuilder_3.3V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3V Supply"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "microbuilder_3.3V_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:microbuilder_HEADER-1X12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 18.415 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -17.78 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:1X12_ROUND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "microbuilder_HEADER-1X12_1_0"
+				(polyline
+					(pts
+						(xy -6.35 17.78) (xy -6.35 -15.24)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -15.24) (xy 1.27 -15.24)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 17.78) (xy -6.35 17.78)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 1.27 17.78)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 15.24 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 12.7 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 10.16 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:microbuilder_HEADER-1X16ROUND"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 20.955 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -25.4 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:1X16_ROUND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "microbuilder_HEADER-1X16ROUND_1_0"
+				(polyline
+					(pts
+						(xy -6.35 20.32) (xy -6.35 -22.86)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -22.86) (xy 1.27 -22.86)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 20.32) (xy -6.35 20.32)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -22.86) (xy 1.27 20.32)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 17.78 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 15.24 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 12.7 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 10.16 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -20.32 0)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:supply1_371_GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "supply1_371_GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit OV5640 Breakout-eagle-import:3.3V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3V Supply"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3V_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit OV5640 Breakout-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit OV5640 Breakout-eagle-import:HEADER-1X970MIL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 13.335 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -15.24 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit OV5640 Breakout:1X09_ROUND_70"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HEADER-1X970MIL_1_0"
+				(polyline
+					(pts
+						(xy -6.35 12.7) (xy -6.35 -12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -12.7) (xy 1.27 -12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 12.7) (xy -6.35 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 1.27 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 10.16 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Adafruit OV5640 Breakout-eagle-import:PINHD-2X9-BIG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 13.335 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -15.24 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit OV5640 Breakout:2X09-BIG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PIN HEADER\n\nWith larger annulars"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PINHD-2X9-BIG_1_0"
+				(polyline
+					(pts
+						(xy -6.35 12.7) (xy -6.35 -12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -12.7) (xy 8.89 -12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 12.7) (xy -6.35 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -12.7) (xy 8.89 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 10.16 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 5.08 10.16 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 5.08 -10.16 180)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 132.08 71.12)
+		(end 200.66 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f68d035-bedd-453b-bb79-3fc5e231776a)
+	)
+	(rectangle
+		(start 55.88 63.5)
+		(end 121.92 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d88c3838-fbf7-4a2e-814a-f049e471f726)
+	)
+	(text "D12"
+		(exclude_from_sim no)
+		(at 116.84 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ab4f70e-3d69-44ad-ba21-9d40a2a9db06")
+	)
+	(text "D11"
+		(exclude_from_sim no)
+		(at 116.586 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3231097b-c3d6-4d25-8fcd-0f9e473f0a19")
+	)
+	(text "A1"
+		(exclude_from_sim no)
+		(at 82.042 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "356e652b-70bf-497d-bb0c-85af3e184349")
+	)
+	(text "MISO"
+		(exclude_from_sim no)
+		(at 83.058 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "492c01f0-914d-4de7-9cbd-78efb8dfac42")
+	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 117.094 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "498e27b1-a6eb-4399-8ce3-8cd33637564d")
+	)
+	(text "vbus"
+		(exclude_from_sim no)
+		(at 117.094 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4bcceae0-da51-4f0c-bc70-2a7593f809b7")
+	)
+	(text "D13"
+		(exclude_from_sim no)
+		(at 116.84 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59901242-8f6d-498c-b0a2-dbf1db810b62")
+	)
+	(text "D5"
+		(exclude_from_sim no)
+		(at 116.586 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5bb46d72-5e7d-4cce-95d3-18271683e50a")
+	)
+	(text "MOSI"
+		(exclude_from_sim no)
+		(at 83.058 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5bbb8dac-744c-4a46-9b68-b8c964b61cde")
+	)
+	(text "D10"
+		(exclude_from_sim no)
+		(at 116.84 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "643f2752-ad2d-44dc-935e-63d15e56e2a4")
+	)
+	(text "SCK"
+		(exclude_from_sim no)
+		(at 82.804 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7290d540-4e4f-47ac-9e3d-121b6122077d")
+	)
+	(text "Feather Header\n"
+		(exclude_from_sim no)
+		(at 88.392 60.706 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "77df3c16-8431-4ad8-bb6a-b6d3bd42b106")
+	)
+	(text "TX00"
+		(exclude_from_sim no)
+		(at 83.566 109.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a8af207-799c-4d8f-966c-09d8669ae91a")
+	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 82.296 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c5a10ef-8005-4082-a9de-4a2467325c13")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 117.094 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f8c7220-941b-4464-9337-51ff8d2d8fb8")
+	)
+	(text "A2"
+		(exclude_from_sim no)
+		(at 82.296 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abbdd486-138c-424a-9a02-3617ecdad194")
+	)
+	(text "A5"
+		(exclude_from_sim no)
+		(at 82.296 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b14ebe58-681c-4da5-abca-3de54167b233")
+	)
+	(text "A4"
+		(exclude_from_sim no)
+		(at 82.296 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b28d5644-ae86-4405-a504-8cf1ba591791")
+	)
+	(text "D9"
+		(exclude_from_sim no)
+		(at 116.586 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5a635ef-5e7e-47db-bd1e-e8bfe03f445e")
+	)
+	(text "D6"
+		(exclude_from_sim no)
+		(at 116.586 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d43a7433-42aa-4e62-b7de-df07b3d67f60")
+	)
+	(text "A0"
+		(exclude_from_sim no)
+		(at 82.296 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d56c6292-f13f-47ed-9ace-bc610ba23f6b")
+	)
+	(text "OV5640 Camera Headers"
+		(exclude_from_sim no)
+		(at 166.37 69.088 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "da620fc4-5e4c-4e16-8238-d7fcaadd3865")
+	)
+	(text "vbat"
+		(exclude_from_sim no)
+		(at 116.84 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc35994c-6c6b-4ebc-9a6e-000efacb52b0")
+	)
+	(text "en"
+		(exclude_from_sim no)
+		(at 116.332 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9f39512-bc71-4020-baa8-348a4ad93313")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 82.296 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f654555c-6361-4b86-a67f-c30be1dc528e")
+	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 82.296 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe414d12-8325-4cc4-9c2f-4d473b6153dd")
+	)
+	(junction
+		(at 185.42 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20887116-1b0a-497b-a44d-003e5122269f")
+	)
+	(junction
+		(at 76.2 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67f12dd0-3fa9-43ad-a1a7-f55af8b6d87a")
+	)
+	(wire
+		(pts
+			(xy 160.02 82.55) (xy 139.7 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0249a2f9-fae7-4022-bb89-1edad3fad30d")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 185.42 85.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "03878703-5657-44d0-8de6-b970b6c5da95")
+	)
+	(wire
+		(pts
+			(xy 76.2 99.06) (xy 60.96 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "10da67e0-c39b-4903-b3e7-2af019b9ae5e")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1493aeba-9666-46a6-b278-dec9e859e28e")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1622fbcc-b83e-42e9-bba5-fcb84068c340")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 60.96 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "18ebabfd-4540-4f6d-b4c7-46bf12385163")
+	)
+	(wire
+		(pts
+			(xy 139.7 97.79) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "19cfc0ed-adc9-45a1-87d7-23ca82957af5")
+	)
+	(wire
+		(pts
+			(xy 96.52 88.9) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2dcda57d-2282-4781-83a7-58da44fa27d7")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 185.42 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "303dc02a-f016-4854-bfa6-9381a3e9a083")
+	)
+	(wire
+		(pts
+			(xy 110.49 96.52) (xy 96.52 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "31f3872d-e8c4-4e6a-98cf-59fedcbefd95")
+	)
+	(wire
+		(pts
+			(xy 110.49 99.06) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "339ccf5b-d875-45cc-bedc-1cf651162bb9")
+	)
+	(wire
+		(pts
+			(xy 96.52 83.82) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "368ecf06-dc69-47c3-bdd7-e606914f5120")
+	)
+	(wire
+		(pts
+			(xy 60.96 73.66) (xy 76.2 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3bc9664f-d8c3-4712-86b0-becd048d05a6")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 60.96 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4243e39c-58cf-47fd-ba7f-76886b3d5356")
+	)
+	(wire
+		(pts
+			(xy 167.64 90.17) (xy 185.42 90.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "43112fa3-9ec1-4171-bc4b-427b4d9df4ae")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 60.96 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "497df99a-82c8-4f45-8b26-81a1577649ea")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 139.7 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b0e4a87-bd17-44bb-a541-23ffa0d973b3")
+	)
+	(wire
+		(pts
+			(xy 167.64 92.71) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5431c84c-22ec-4e24-bb46-5d6abc7d44d4")
+	)
+	(wire
+		(pts
+			(xy 60.96 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "59cc1867-5fdd-4d29-b7b0-c33bc47423a1")
+	)
+	(wire
+		(pts
+			(xy 60.96 71.12) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "59fc9009-83e7-498a-85ce-998351c0dee2")
+	)
+	(wire
+		(pts
+			(xy 160.02 90.17) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e91b36e-d254-4cd1-b248-27433dfe8a7c")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 76.2 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6bee2333-ab6a-4306-9a99-020809925074")
+	)
+	(wire
+		(pts
+			(xy 160.02 95.25) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6bf06ccc-7c80-4b5b-b279-998f9ce71d7d")
+	)
+	(wire
+		(pts
+			(xy 167.64 82.55) (xy 185.42 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ea1b2f7-4fa8-477f-9249-500d35ad0ffb")
+	)
+	(wire
+		(pts
+			(xy 167.64 100.33) (xy 185.42 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "74cb9dbf-49bb-424c-8843-57aa39fe6872")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 110.49 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b616bab-e202-4792-a0cb-e7945ad68fc8")
+	)
+	(wire
+		(pts
+			(xy 76.2 109.22) (xy 60.96 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "80313c1a-ea69-40b5-b8d6-b06afb5c83ee")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 60.96 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8071d0ff-7a2f-4fc6-99a0-0ad3ec6dd66d")
+	)
+	(wire
+		(pts
+			(xy 185.42 97.79) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "831d3c3d-c829-44da-8c36-7a350d04c146")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 60.96 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "884e7637-08b0-440e-9525-f9bf089cf234")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9082470b-fab1-46a4-a75e-aba77ef13472")
+	)
+	(wire
+		(pts
+			(xy 96.52 93.98) (xy 110.49 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9dda5e4d-433f-49ce-a2e5-06f818ffc09a")
+	)
+	(wire
+		(pts
+			(xy 86.36 78.74) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6ad59cf-6cac-4956-875f-5df4466d4daf")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 160.02 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aabadfd1-7e00-43c4-b265-a9bd3b14cf9a")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac90c279-39d6-4a88-b27c-ea86a57cb4be")
+	)
+	(wire
+		(pts
+			(xy 167.64 87.63) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b0d729bc-c3df-4fca-8c42-bc0933adae0c")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b385320d-ea70-40d1-9c79-027bd618f541")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b556f5a0-1388-4b77-8d70-4218f2d94932")
+	)
+	(wire
+		(pts
+			(xy 60.96 106.68) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8aa0f29-581f-41df-9d83-9741c3c6f997")
+	)
+	(wire
+		(pts
+			(xy 167.64 95.25) (xy 185.42 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c0e2ce61-1b89-4f20-a8ba-b72d180f51c2")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 60.96 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb85d49a-1d79-4289-878d-7f927a90cfe6")
+	)
+	(wire
+		(pts
+			(xy 60.96 101.6) (xy 76.2 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e6ce84a8-88e9-41e8-9f71-f2995c6fba18")
+	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 160.02 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea388255-2e98-4aa5-bd19-9ebb1d66231f")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f5c5d4a2-eb8c-46e5-9306-5b38ffae798e")
+	)
+	(wire
+		(pts
+			(xy 76.2 93.98) (xy 60.96 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "feda715e-3e78-4568-928e-ef06bb3a4e1e")
+	)
+	(label "VSYNC"
+		(at 60.96 81.28 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "06a41e81-2925-4be1-82a9-51eac13a04f8")
+	)
+	(label "~{RESET}"
+		(at 139.7 102.87 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "09b79e2a-e3a8-4b1e-9ee8-97dc95e388f5")
+	)
+	(label "DATA9"
+		(at 60.96 86.36 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ae9a413-fa73-477c-acba-8930b85b17e4")
+	)
+	(label "DATA8"
+		(at 96.52 86.36 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bb8c370-132c-4534-823f-a6ecafc1141f")
+	)
+	(label "EXT_XCLK"
+		(at 172.72 90.17 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d6d2d29-7f67-4e05-9ea7-122fcb76b338")
+	)
+	(label "DATA4"
+		(at 96.52 91.44 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "19ba3635-a733-43c2-880b-5b1d4e68b027")
+	)
+	(label "~{RESET}"
+		(at 60.96 104.14 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a2b794e-c44e-4452-8603-abe6818ce12e")
+	)
+	(label "DATA2"
+		(at 96.52 93.98 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "2acf21e9-dc2b-492e-b6db-c1e81649246b")
+	)
+	(label "DATA4"
+		(at 172.72 97.79 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "391a599b-cd9f-44bc-851c-a699809e810f")
+	)
+	(label "SDA"
+		(at 96.52 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "511d3116-e0aa-4c69-be40-0e7151edc1a7")
+	)
+	(label "VSYNC"
+		(at 139.7 87.63 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "53f6ac27-7971-40b0-aa98-face14694a6b")
+	)
+	(label "HSYNC"
+		(at 172.72 87.63 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "56a8ad1a-49c0-489f-9f83-7956eca6cc06")
+	)
+	(label "PCLK"
+		(at 60.96 83.82 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "58013fe2-645d-49c1-90e8-bf0fb3a5c6bf")
+	)
+	(label "HSYNC"
+		(at 96.52 81.28 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "624c850a-e299-4bfc-a130-c4dd290bd28a")
+	)
+	(label "SCL"
+		(at 96.52 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "717e4ebe-1fdd-4944-be2d-bb4b54d12479")
+	)
+	(label "DATA5"
+		(at 139.7 97.79 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "71d692c0-9aa2-4ff5-acdc-790e63ec14c0")
+	)
+	(label "DATA9"
+		(at 139.7 92.71 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "736bfcd3-8e3e-4f79-95c8-dde7955696ec")
+	)
+	(label "DATA8"
+		(at 172.72 92.71 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "740b1d99-8947-4d7c-80b8-893ac400d475")
+	)
+	(label "DATA6"
+		(at 96.52 88.9 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "751759db-344d-4fdc-8039-f02e40e1f2f9")
+	)
+	(label "DATA7"
+		(at 60.96 88.9 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cb311cf-7887-4daf-ae84-121daebf5413")
+	)
+	(label "EXT_XCLK"
+		(at 96.52 83.82 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9668a2bb-70d7-4177-8e03-dee2008e5835")
+	)
+	(label "DATA6"
+		(at 172.72 95.25 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a286812c-dc7e-4a63-bab5-2031b7a75032")
+	)
+	(label "PWDN"
+		(at 172.72 102.87 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc6f828b-c16a-4033-b7c2-5fb9a8b7c2b2")
+	)
+	(label "DATA5"
+		(at 60.96 91.44 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4eae75a-6ea4-48b7-8338-8689e809fec3")
+	)
+	(label "DATA3"
+		(at 60.96 93.98 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf903d63-5b94-43f3-a228-7072a920d5ad")
+	)
+	(label "SCL"
+		(at 139.7 85.09 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc609717-b292-4659-b7ed-84fb82e4431b")
+	)
+	(label "SDA"
+		(at 172.72 85.09 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcd971da-475e-42d6-a5c5-8ec2e31a144b")
+	)
+	(label "PCLK"
+		(at 139.7 90.17 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea790489-be4f-4e51-9abe-aa79b25e9ccf")
+	)
+	(label "DATA3"
+		(at 139.7 100.33 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec8bbea1-a777-411a-bc8a-d24a420ff445")
+	)
+	(label "DATA7"
+		(at 139.7 95.25 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f39f2b05-d8f1-44d0-90c9-368afad092dc")
+	)
+	(label "DATA2"
+		(at 172.72 100.33 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "facc88f9-d75f-43d8-be68-03bf129ffb0d")
+	)
+	(label "PWDN"
+		(at 96.52 96.52 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff54a1ea-c8dc-46f4-9782-2bb13a68ebf2")
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:supply1_371_GND")
+		(at 86.36 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a35011f-2da8-4e5e-913c-9298a928b1a1")
+		(property "Reference" "#GND04"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ecba81-47ef-4a83-bd01-d2ad3cd50186")
+		)
+		(instances
+			(project "ov564-fw-bobo"
+				(path "/49219d08-e872-4971-9be4-9bb8381445ee"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit OV5640 Breakout-eagle-import:HEADER-1X970MIL")
+		(at 187.96 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "273bf82d-4cd0-42c7-930d-b3234ba20a41")
+		(property "Reference" "JP1"
+			(at 181.61 79.375 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X970MIL"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit OV5640 Breakout:1X09_ROUND_70"
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "315ded42-37e4-4a39-b521-4a4fbd30eeb7")
+		)
+		(pin "2"
+			(uuid "d8522176-7648-4238-8745-f5dd7808ddfc")
+		)
+		(pin "3"
+			(uuid "fe7b6530-c05a-43bc-a102-33fc4504d74e")
+		)
+		(pin "4"
+			(uuid "562fc430-3c99-47fa-a109-86022767bfb7")
+		)
+		(pin "5"
+			(uuid "da6a2dc7-3dc3-4a68-a967-697d4359ad84")
+		)
+		(pin "6"
+			(uuid "93b33b6d-7434-49d3-8d70-3a2586440e5a")
+		)
+		(pin "7"
+			(uuid "f65d03b0-184e-4da4-8db1-2676bf963093")
+		)
+		(pin "8"
+			(uuid "9f5db536-6ad4-4cfc-bc4f-c5fc08aa9d14")
+		)
+		(pin "9"
+			(uuid "034733de-029f-4b1a-8a98-c511a1f39dea")
+		)
+		(instances
+			(project "ov564-fw-bobo"
+				(path "/49219d08-e872-4971-9be4-9bb8381445ee"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit OV5640 Breakout-eagle-import:GND")
+		(at 185.42 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33c1151f-4f0a-4fed-994e-bca6cdefae32")
+		(property "Reference" "#U$04"
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.944 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae4771a8-d20f-4807-a006-6fb36b666f20")
+		)
+		(instances
+			(project "ov564-fw-bobo"
+				(path "/49219d08-e872-4971-9be4-9bb8381445ee"
+					(reference "#U$04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:microbuilder_HEADER-1X16ROUND")
+		(at 73.66 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "367d2750-3373-4121-bc5b-ce361557294e")
+		(property "Reference" "JP4"
+			(at 80.01 112.395 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X16ROUND"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:1X16_ROUND"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df06497b-3047-4f6e-8d90-6c11204f7069")
+		)
+		(pin "2"
+			(uuid "e06e5b6b-1931-4806-acbc-56c46b7e8e7c")
+		)
+		(pin "3"
+			(uuid "430ab738-142d-4d2f-b806-1bd789fadbb3")
+		)
+		(pin "4"
+			(uuid "1c03a2c0-9bf0-4ae8-b7e3-a45de3f507a7")
+		)
+		(pin "5"
+			(uuid "f521a345-2f7d-4675-b550-5fe3dd6de9df")
+		)
+		(pin "6"
+			(uuid "7b5abb99-9d4a-428e-88d9-df24d5979236")
+		)
+		(pin "7"
+			(uuid "713a89dd-85d1-442f-a24e-d5b5fbee44b3")
+		)
+		(pin "8"
+			(uuid "02675068-566c-4bc6-8968-9f8fa0e218d4")
+		)
+		(pin "9"
+			(uuid "dde95c7b-3eff-4d16-9846-4f11472bef08")
+		)
+		(pin "10"
+			(uuid "ea90b5ff-0fa4-420c-a7f7-18e316e17ab0")
+		)
+		(pin "11"
+			(uuid "63abe85d-e235-4dd3-93b6-c337802a9e3b")
+		)
+		(pin "12"
+			(uuid "eff659d2-8ac2-4504-a2fc-2e5803c761fa")
+		)
+		(pin "13"
+			(uuid "be2a06e5-dce1-4d2d-8018-f6095e4f4a51")
+		)
+		(pin "14"
+			(uuid "c7d9456b-cd3f-41c3-a9e4-b9021071c1a1")
+		)
+		(pin "15"
+			(uuid "6a127bed-1a8f-426c-9d4c-331d9d0f0e5d")
+		)
+		(pin "16"
+			(uuid "434ec1f8-6cc0-483f-af02-5e7cc9e6f50e")
+		)
+		(instances
+			(project "ov564-fw-bobo"
+				(path "/49219d08-e872-4971-9be4-9bb8381445ee"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:microbuilder_HEADER-1X12")
+		(at 113.03 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c1a846c-189b-4cc9-82b2-bcd26ca67052")
+		(property "Reference" "JP3"
+			(at 106.68 70.485 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HEADER-1X12"
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:1X12_ROUND"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49b75c28-5528-4fd6-8365-1919cb53d9cf")
+		)
+		(pin "2"
+			(uuid "8f7142fb-0c80-412d-b483-acf675333aa6")
+		)
+		(pin "3"
+			(uuid "546d9dfb-e4bb-44f1-9ba7-2e3366e60118")
+		)
+		(pin "4"
+			(uuid "ca552531-50d4-459b-b630-5a62089eac6d")
+		)
+		(pin "5"
+			(uuid "a9526f1e-0dbd-43f3-8169-4c12def7482d")
+		)
+		(pin "6"
+			(uuid "17af18c5-749d-43e3-96df-595b3d2d784d")
+		)
+		(pin "7"
+			(uuid "73e23c4a-13af-4999-968c-d8eedfc75760")
+		)
+		(pin "8"
+			(uuid "83b180dd-43b6-48d6-946b-f1328ebaeb97")
+		)
+		(pin "9"
+			(uuid "5c7c184d-fc80-45bf-9ecd-15445404b127")
+		)
+		(pin "10"
+			(uuid "254b45f3-70e0-4d54-8ad3-a29b4c761bad")
+		)
+		(pin "11"
+			(uuid "a3359400-3618-4de5-a021-19a973e50fe2")
+		)
+		(pin "12"
+			(uuid "2bdf75ab-f2ce-4530-b202-47b7410f6045")
+		)
+		(instances
+			(project "ov564-fw-bobo"
+				(path "/49219d08-e872-4971-9be4-9bb8381445ee"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit OV5640 Breakout-eagle-import:3.3V")
+		(at 139.7 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "939309a0-0c0a-4b6d-8471-e8a64e86e37e")
+		(property "Reference" "#U$02"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 138.176 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "127ab245-b9c9-443b-9bc2-47e0e36ce36c")
+		)
+		(instances
+			(project "ov564-fw-bobo"
+				(path "/49219d08-e872-4971-9be4-9bb8381445ee"
+					(reference "#U$02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit OV5640 Breakout-eagle-import:PINHD-2X9-BIG")
+		(at 162.56 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1844c27-64e0-4de8-97c7-56d8f7f0b617")
+		(property "Reference" "JP2"
+			(at 156.21 79.375 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-2X9-BIG"
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit OV5640 Breakout:2X09-BIG"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92bacc16-6cb0-4ed1-8839-f6c43d8a9ff2")
+		)
+		(pin "3"
+			(uuid "ff4b5b47-26e3-44bb-b89d-75ebf8b08374")
+		)
+		(pin "5"
+			(uuid "38cc3a64-fcae-44ab-9e1f-8bebde19ae01")
+		)
+		(pin "7"
+			(uuid "e9a247f2-18ca-4420-99ae-58219ece63ad")
+		)
+		(pin "9"
+			(uuid "0fbb5d5f-45d1-4e0e-bc6a-feb57580b24c")
+		)
+		(pin "11"
+			(uuid "a25a1759-e73d-4845-8532-826a62051dfb")
+		)
+		(pin "13"
+			(uuid "32eb73c9-f5bc-44a4-83f5-d34e621bf01a")
+		)
+		(pin "15"
+			(uuid "a516a2a6-1260-42c0-a92e-24733f2b070d")
+		)
+		(pin "17"
+			(uuid "5f2c5038-8d6e-4250-8406-fd8b1ca5c363")
+		)
+		(pin "2"
+			(uuid "f314cba4-1e10-43ff-a4ac-023516f3b7de")
+		)
+		(pin "4"
+			(uuid "a7134b36-ee0a-4e6f-aad0-f7b5192c6086")
+		)
+		(pin "6"
+			(uuid "c3aa87d0-7265-48c9-adfa-8a65b6376b6d")
+		)
+		(pin "8"
+			(uuid "4be3d42b-59c7-4cf6-a540-b3e90345acfe")
+		)
+		(pin "10"
+			(uuid "8c7c485e-8d31-4bf1-835a-e3a862e6f452")
+		)
+		(pin "12"
+			(uuid "e4489e59-081b-4ed4-8352-57614f9369ec")
+		)
+		(pin "14"
+			(uuid "94c1fc84-2c0f-415f-8a3d-19f6a97001cb")
+		)
+		(pin "16"
+			(uuid "698e753e-e0fc-42eb-aa09-f0c6569582d4")
+		)
+		(pin "18"
+			(uuid "2d3a30dc-e1d3-4461-8644-77e0e8940e16")
+		)
+		(instances
+			(project "ov564-fw-bobo"
+				(path "/49219d08-e872-4971-9be4-9bb8381445ee"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:microbuilder_3.3V")
+		(at 60.96 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec3c079e-0bb2-43fe-a1f1-abc04a43c85b")
+		(property "Reference" "#U$06"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 59.436 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71d535a9-d5f0-48f2-8363-089245f8bea2")
+		)
+		(instances
+			(project "ov564-fw-bobo"
+				(path "/49219d08-e872-4971-9be4-9bb8381445ee"
+					(reference "#U$06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
