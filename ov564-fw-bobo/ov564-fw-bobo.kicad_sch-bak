@@ -1823,130 +1823,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 132.08 71.12)
@@ -2266,6 +2142,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 99.06) (xy 60.96 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "10da67e0-c39b-4903-b3e7-2af019b9ae5e")
+	)
+	(wire
+		(pts
 			(xy 139.7 82.55) (xy 139.7 77.47)
 		)
 		(stroke
@@ -2306,26 +2192,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 109.22) (xy 92.71 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c3d8f60-cb6a-4989-86b1-af63abe648bb")
-	)
-	(wire
-		(pts
-			(xy 92.71 110.49) (xy 101.6 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "260ea4aa-59ce-4f7a-a2c1-12973e0d9069")
-	)
-	(wire
-		(pts
 			(xy 96.52 88.9) (xy 110.49 88.9)
 		)
 		(stroke
@@ -2356,6 +2222,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 99.06) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "339ccf5b-d875-45cc-bedc-1cf651162bb9")
+	)
+	(wire
+		(pts
 			(xy 96.52 83.82) (xy 110.49 83.82)
 		)
 		(stroke
@@ -2373,6 +2249,16 @@
 			(type solid)
 		)
 		(uuid "3bc9664f-d8c3-4712-86b0-becd048d05a6")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 60.96 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4243e39c-58cf-47fd-ba7f-76886b3d5356")
 	)
 	(wire
 		(pts
@@ -2496,6 +2382,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 109.22) (xy 60.96 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "80313c1a-ea69-40b5-b8d6-b06afb5c83ee")
+	)
+	(wire
+		(pts
 			(xy 76.2 81.28) (xy 60.96 81.28)
 		)
 		(stroke
@@ -2606,6 +2502,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 106.68) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8aa0f29-581f-41df-9d83-9741c3c6f997")
+	)
+	(wire
+		(pts
 			(xy 167.64 95.25) (xy 185.42 95.25)
 		)
 		(stroke
@@ -2626,13 +2532,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 101.6) (xy 92.71 99.06)
+			(xy 60.96 101.6) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d744ebae-dd09-4b99-b4b6-7aac3a3794b4")
+		(uuid "e6ce84a8-88e9-41e8-9f71-f2995c6fba18")
 	)
 	(wire
 		(pts
@@ -2653,16 +2559,6 @@
 			(type solid)
 		)
 		(uuid "f5c5d4a2-eb8c-46e5-9306-5b38ffae798e")
-	)
-	(wire
-		(pts
-			(xy 92.71 99.06) (xy 110.49 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fa3b4fd1-02f6-4cef-b792-198f5afc0e39")
 	)
 	(wire
 		(pts
@@ -2864,16 +2760,6 @@
 		)
 		(uuid "751759db-344d-4fdc-8039-f02e40e1f2f9")
 	)
-	(label "SCLCAM"
-		(at 101.6 110.49 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "8aed28de-d663-4481-90bb-f83826da2b65")
-	)
 	(label "DATA7"
 		(at 60.96 88.9 0)
 		(effects
@@ -2934,7 +2820,7 @@
 		)
 		(uuid "cf903d63-5b94-43f3-a228-7072a920d5ad")
 	)
-	(label "SCLCAM"
+	(label "SCL"
 		(at 139.7 85.09 0)
 		(effects
 			(font
@@ -3097,7 +2983,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Adafruit OV5640 Breakout:1X09_ROUND_70"
 			(at 187.96 92.71 0)
 			(effects
 				(font
@@ -3253,7 +3139,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
+		(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:1X16_ROUND"
 			(at 73.66 91.44 0)
 			(effects
 				(font
@@ -3338,76 +3224,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 92.71 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58bcd51e-3488-49ec-9b9b-7978e15a2433")
-		(property "Reference" "R1"
-			(at 95.25 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R0"
-			(at 95.25 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 90.932 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4091ced5-42ee-467a-a3cc-2882f92aced8")
-		)
-		(pin "1"
-			(uuid "77e3c6b2-fb17-4d77-b129-232521781e46")
-		)
-		(instances
-			(project ""
-				(path "/49219d08-e872-4971-9be4-9bb8381445ee"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:microbuilder_HEADER-1X12")
 		(at 113.03 88.9 0)
 		(unit 1)
@@ -3434,7 +3250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
+		(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:1X12_ROUND"
 			(at 113.03 88.9 0)
 			(effects
 				(font
@@ -3599,7 +3415,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Adafruit OV5640 Breakout:2X09-BIG"
 			(at 162.56 92.71 0)
 			(effects
 				(font
