@@ -1,4 +1,4 @@
-26682417854083869
+26684186125200360
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105426,6 +105426,13 @@ feeatherwing-esp32s3-basic
 0
 30
 17
+footprints
+feeatherwing-esp32s3-blank
+
+
+0
+2
+1
 footprints
 feeatherwing-esp32s3-noheader
 
