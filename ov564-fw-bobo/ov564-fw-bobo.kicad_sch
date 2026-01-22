@@ -2084,7 +2084,7 @@
 	)
 	(text "Feather Header\n"
 		(exclude_from_sim no)
-		(at 88.392 60.706 0)
+		(at 88.392 59.944 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -2184,7 +2184,7 @@
 	)
 	(text "OV5640 Camera Headers"
 		(exclude_from_sim no)
-		(at 166.37 69.088 0)
+		(at 166.37 67.818 0)
 		(effects
 			(font
 				(size 5.08 5.08)
