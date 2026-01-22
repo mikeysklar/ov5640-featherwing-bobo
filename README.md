@@ -1,9 +1,8 @@
 # OV5640 FeatherWing BoBo  
-**Breakout → Breakout (BoBo)**
 
-![Assembly](pics/asm.jpeg)
+![FeatherWing BoBo board](pics/fw-bobo.jpeg)
 
-A compact FeatherWing that cleanly connects the OV5640 camera module to Adafruit Feather boards. This is a single sided, rapid prototyped board designed in KiCAD that was etched with a Fiber Laser.
+FeatherWing PCB that connects to the OV5640 camera module from Adafruit 
 
 ---
 
@@ -11,22 +10,20 @@ A compact FeatherWing that cleanly connects the OV5640 camera module to Adafruit
 
 ![Double board – no camera attached](pics/double-nocam.jpeg)
 
-**OV5640 FeatherWing BoBo** was created to solve a real-world wiring problem discussed on the [Adafruit](https://forums.adafruit.com/viewtopic.php?t=221951) f(https://github.com/jerryneedell/mycamera).
-
-Special thanks to [jerryn for his reference design and example code](https://github.com/jerryneedell/mycamera). 
-
----
-
-## Features
-
-![FeatherWing BoBo board](pics/fw-bobo.jpeg)
-
-- OV5640 camera breakout → Feather breakout adapter
-- Designed as a FeatherWing-style board
+- OV5640 camera breakout supports both header configurations
+- Converts the OV5640 Breakout to a FeatherWing format
 - Leaves SPI pins available for SD / SDIO use
 - Third header row for breadboard-friendly layouts
+- Single Sided PCB for easy rapid prototyping at home
 - Compatible with **most Feather boards**
 - Tested with **Feather ESP32-S3**
+
+
+![Assembly](pics/asm.jpeg)
+
+**OV5640 FeatherWing BoBo** was created to solve a real-world wiring problem discussed on the [Adafruit](https://forums.adafruit.com/viewtopic.php?t=221951) f(https://github.com/jerryneedell/mycamera). Wiring 18 pins by hand is a messy process.
+
+Special thanks to [jerryn for his reference design and example code](https://github.com/jerryneedell/mycamera). 
 
 ---
 
