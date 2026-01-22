@@ -2,7 +2,7 @@
 
 ![FeatherWing BoBo board](pics/fw-bobo.jpeg)
 
-FeatherWing PCB that connects to the OV5640 camera module from Adafruit 
+FeatherWing PCB that connects to the OV5640 camera breakout module from Adafruit 
 
 ---
 
@@ -18,6 +18,21 @@ FeatherWing PCB that connects to the OV5640 camera module from Adafruit
 - Compatible with **most Feather boards**
 - Tested with **Feather ESP32-S3**
 
+---
+
+## BOM
+
+| Item | Description |
+|---|---|
+| [Adafruit ESP32-S3 Feather with 4MB Flash 2MB PSRAM – STEMMA QT / Qwiic](https://www.adafruit.com/product/5477) | ESP32-S3 Feather board with 4 MB Flash, 2 MB PSRAM |
+| [Adafruit OV5640 Camera Breakout – 120 Degree Lens with Autofocus](https://www.adafruit.com/product/5838) | OV5640 camera module, 120° lens, autofocus |
+| [FeatherWing Doubler – Prototyping Add-on For All Feather Boards](https://www.adafruit.com/product/2890) | FeatherWing prototyping add-on board |
+| [Single-row SMT headers](https://www.aliexpress.us/item/3256805008610566.html) | Surface-mount single-row pin headers |
+| [Double-row SMT headers](https://www.aliexpress.us/item/3256803267239198.html) | Surface-mount double-row pin headers |
+
+---
+
+## Backstory
 
 ![Assembly](pics/asm.jpeg)
 
