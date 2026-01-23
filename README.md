@@ -36,9 +36,10 @@ FeatherWing PCB that connects to the OV5640 camera breakout module from Adafruit
 
 ![Assembly](pics/asm.jpeg)
 
-**OV5640 FeatherWing BoBo** was created to solve a real-world wiring problem discussed on the [Adafruit](https://forums.adafruit.com/viewtopic.php?t=221951) f(https://github.com/jerryneedell/mycamera). Wiring 18 pins by hand is a messy process.
+**OV5640 FeatherWing BoBo** was created to solve a real-world wiring problem discussed 
+on the forums [Adafruit forums](https://forums.adafruit.com/viewtopic.php?t=221951).
 
-Special thanks to [jerryn for his reference design and example code](https://github.com/jerryneedell/mycamera). 
+Special thanks to [Jerry Needell for his reference design and example code](https://github.com/jerryneedell/mycamera). 
 
 ---
 
