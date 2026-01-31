@@ -43,6 +43,16 @@ Special thanks to [Jerry Needell for his reference design and example code](http
 
 ---
 
+## CircuitPython
+
+- Tested on v10.0.3
+- required libraries:
+  - @jerryn [mycamera](https://github.com/jerryneedell/mycamera/tree/main) 
+  - adafruit_requests 
+  - adafruit_io
+
+---
+
 ## Etching Settings
 
 ![Engraved PCB](pics/pcb-engraved.jpeg)
@@ -63,7 +73,12 @@ Special thanks to [Jerry Needell for his reference design and example code](http
 ---
 
 ## PCB
-![PCB tag detail](pics/pcb.jpeg)
+![PCB tag detail](pics/pcb.png)
+
+---
+
+## KiCAD 3D
+![PCB tag detail](pics/pcb.png)
 
 ---
 
